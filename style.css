@@ -5,12 +5,19 @@ body {
     top: 30%;
     left: 50%;
     transform: translate(-40%, -40%);
+    z-index: auto;
 
     margin: 0px;
     padding: 0px;
     background-color: lightgray;
 
+    background-image: url(imagens/Video\ game\ poster\ designs\ by\ Dylan\ West_\ _\ Better….jpg);
+
+    background-size: 80px;
+
 }
+
+
 
 h1 {
     margin: auto;
@@ -18,19 +25,16 @@ h1 {
     
 
     
-    background-color: rgba(128, 128, 128, 0.253);
+    background-color: rgba(128, 128, 128, 0.678);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
+    font-size: 4em;
     width: max-content;
     text-align: center;
-    border-radius: 10px;
-
-    
- 
-
-    
+    border-radius: 12px;
+    border-bottom: 1px 1px 3px 5px;
     
 }
+
 
 lista, a {
     margin: auto;
@@ -47,21 +51,23 @@ lista, a {
     
     border: 10px 12px;
     border-radius: 8px;
-    background-color: rgba(0, 153, 255, 0.692)
+    background-color: rgba(0, 153, 255, 0.829)
 
+}
+
+
+a:hover {
+    color: rgba(172, 255, 47, 0.849);
+    transition: 0.8ms;
 }
 
 a {
+    
     box-shadow: 2px 1px 1px 1px;
     text-decoration: none;
     font-size: 3em;
-    color: rgba(13, 46, 236, 0.733);
+    color: rgb(17, 17, 17);
     
-}
-
-a:hover {
-    color: rgba(255, 255, 255, 0.692);
-    transition: .6s;
 }
 
 
