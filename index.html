@@ -12,18 +12,30 @@
 
     <h1>Games Retro</h1>
   
-    
     <div class="lista">
-        
-               <li>
-                   <a href="https://felipegsilva11.github.io/projeto-mario-jump/" target="_blank">Mario</a>
-               </li>
-               <li>
-                   <a href="https://felipegsilva11.github.io/snake-game/" target="_blank">Snake</a>
-               </li>
-           
-          
+        <li>
+            <a href="https://felipegsilva11.github.io/projeto-mario-jump/" target="_blank" class="link-mario" 
+                onmouseover="playMarioAudio()" onmouseout="pauseMarioAudio()">Mario</a>
+        </li>
+        <li>
+            <a href="https://felipegsilva11.github.io/snake-game/" target="_blank" class="link-snake" 
+                onmouseover="playSnakeAudio()" onmouseout="pauseSnakeAudio()">Snake</a>
+        </li>
     </div>
 
+    <!-- Adicione elementos de áudio separados com IDs diferentes -->
+    <audio id="mario-audio" src="audios/smb_mariodie.wav" preload="auto"></audio>
+    <audio id="snake-audio" src="audios/sinnesloschen-beam-117362.mp3" preload="auto"></audio>
+
+    <!-- Seu código JavaScript para controlar a reprodução de áudio -->
+    <script src="seu_script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
